@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: sans-serif;
+  }
+  
+  
+
+  td {
+    border: 1px solid;
+    width: 50px;
+    text-align: center;
+    height: 50px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s;
+
+  
+  
+}
+  .active {
+    background-color: red;
+  }
+  th:hover{
+    transform: scale(0.95);
+  }
+  
+  .ReactModal__Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+    .ReactModal__Content {
+      background-color: white;
+      outline: none;
+      min-width: 600px;
+      min-height: 450px;
+      border-radius: 14px;
+      padding: 100px;
+    }
+  
+      .inputWrapper{
+        margin-bottom: 20px;
+        display: flex;
+        font-size: 26px;
+        justify-content: space-between;
+      }
+  
+        .inputWrapper input{
+          width: 240px;
+          padding: 10px;
+          font-size: 22px;
+        }
+  
+        .inputWrapper input:focus{
+            outline: none;
+          }
+  
+          .wrong{
+            border-color: red;
+          }
+        
+      
+      .buttonWrapper{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 70px;
+        
+     
+         
+      }
+   
+      .buttonWrapper    button{
+            padding: 10px 15px;
+            border-radius: 5px;
+            border: 2px solid gray;
+            background-color: #fff;
+            font-size: 25px;
+            cursor: pointer;
+            transition: all .2s;
+        }
+  
+    .buttonWrapper    button{
+        transform: scale(0.95)
+    }
